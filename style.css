@@ -193,5 +193,126 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+
+/* the product
+============================= */
+
+.theproduct__blocks {
+    width: 100%;
+}
+
+.theproduct__block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 150px;
+}
+
+.theproduct__texts {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    width: 600px;
+}
+
+.theproduct__texts h1 {
+    font-family: Times New Roman;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #283337;
+    padding-bottom: 50px;
+}
+
+.theproduct__texts p {
+    font-family: Arial;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #40494D;
+    padding-bottom: 30px;
+}
+
+.theproduct__texts a {
+    font-family: Arial;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding: 10px 15px;
+    background-color: #283337;
+    border-radius: 50px;
+    width: 230px;
+}
+
+.theproduct__texts a:hover {
+    background-color: gray;
+}
+
+.theproduct__texts2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F7F4;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.theproduct__img {
+    margin-top: 50px;
+}
+
+.theproduct__text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.theproduct__text h1 {
+    font-family: Arial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #283337;
+    padding-bottom: 50px;
+}
+
+.theproduct__text p {
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #40494D;
+    padding-bottom: 20px;
+}
+
+.theproduct__text a {
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: right;
 }
