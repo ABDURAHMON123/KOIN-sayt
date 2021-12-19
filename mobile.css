@@ -64,6 +64,49 @@
     .ourresult__texts p {
         font-size: 15px;
     }
+    /* thekoin
+    ================================= */
+    .thekoin__texts h1 {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+    .thekoin__texts p {
+        font-size: 15px;
+    }
+    .thekoin__texts span {
+        font-size: 15px;
+    }
+    .thekoin__texts a {
+        font-size: 17px;
+    }
+    .thekoin__video {
+        height: 280px;
+    }
+    .thekoin__videoplay img {
+        width: 100px;
+    }
+    @keyframes thekoinplay {
+        0% {
+            top: 28%;
+            left: 38%;
+        }
+        25% {
+            top: 28%;
+            left: 44%;
+        }
+        50% {
+            top: 32%;
+            left: 44%;
+        }
+        75% {
+            top: 32%;
+            left: 38%;
+        }
+        100% {
+            top: 28%;
+            left: 38%;
+        }
+    }
 }
 
 @media screen and (max-width: 955.99px) and (min-width: 756px) {
@@ -121,6 +164,7 @@
     .theproduct__texts2 {
         width: 350px;
         height: 400px;
+        margin-bottom: 0;
     }
     .theproduct__text {
         width: 300px;
@@ -150,6 +194,49 @@
     .ourresult__texts p {
         font-size: 13px;
         line-height: 20px;
+    }
+    /* thekoin
+    ================================= */
+    .thekoin__texts h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .thekoin__texts p {
+        font-size: 13px;
+    }
+    .thekoin__texts span {
+        font-size: 13px;
+    }
+    .thekoin__texts a {
+        font-size: 15px;
+    }
+    .thekoin__video {
+        height: 250px;
+    }
+    .thekoin__videoplay img {
+        width: 80px;
+    }
+    @keyframes thekoinplay {
+        0% {
+            top: 30%;
+            left: 38%;
+        }
+        25% {
+            top: 30%;
+            left: 44%;
+        }
+        50% {
+            top: 34%;
+            left: 44%;
+        }
+        75% {
+            top: 34%;
+            left: 38%;
+        }
+        100% {
+            top: 30%;
+            left: 38%;
+        }
     }
 }
 
@@ -213,6 +300,7 @@
     .theproduct__texts2 {
         width: 400px;
         height: 450px;
+        margin-bottom: 0;
     }
     .theproduct__text {
         width: 300px;
@@ -243,6 +331,9 @@
     .ourresult__texts h1 {
         font-size: 50px;
     }
+    .ourresult__texts {
+        margin-bottom: 50px;
+    }
     .ourresult__text1,
     .ourresult__text2,
     .ourresult__text3 {
@@ -252,6 +343,58 @@
     .ourresult__texts p {
         font-size: 18px;
         line-height: 40px;
+    }
+    /* thekoin
+    ================================= */
+    .thekoin__block {
+        flex-direction: column;
+    }
+    .thekoin__texts {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .thekoin__texts h1 {
+        font-size: 42px;
+        padding-bottom: 20px;
+    }
+    .thekoin__texts p {
+        font-size: 15px;
+    }
+    .thekoin__texts span {
+        font-size: 15px;
+    }
+    .thekoin__texts a {
+        font-size: 17px;
+    }
+    .thekoin__video {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+    .thekoin__videoplay img {
+        width: 80px;
+    }
+    @keyframes thekoinplay {
+        0% {
+            top: 30%;
+            left: 40%;
+        }
+        25% {
+            top: 30%;
+            left: 46%;
+        }
+        50% {
+            top: 34%;
+            left: 46%;
+        }
+        75% {
+            top: 34%;
+            left: 40%;
+        }
+        100% {
+            top: 30%;
+            left: 40%;
+        }
     }
 }
 
@@ -413,6 +556,7 @@
     .theproduct__texts2 {
         width: 280px;
         height: 400px;
+        margin-bottom: 0;
     }
     .theproduct__text {
         width: 230px;
@@ -444,6 +588,9 @@
     .ourresult__texts h1 {
         font-size: 40px;
     }
+    .ourresult__texts {
+        margin-bottom: 50px;
+    }
     .ourresult__text1,
     .ourresult__text2,
     .ourresult__text3 {
@@ -453,5 +600,60 @@
     .ourresult__texts p {
         font-size: 15px;
         line-height: 30px;
+    }
+    /* thekoin
+    ================================= */
+    .thekoin__block {
+        flex-direction: column;
+    }
+    .thekoin__texts {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .thekoin__texts h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .thekoin__texts p {
+        font-size: 13px;
+    }
+    .thekoin__texts span {
+        font-size: 13px;
+    }
+    .thekoin__texts a {
+        font-size: 15px;
+    }
+    .thekoin__video {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .thekoin__videoplay img {
+        width: 70px;
+    }
+    @keyframes thekoinplay {
+        0% {
+            top: 30%;
+            left: 36%;
+        }
+        25% {
+            top: 30%;
+            left: 44%;
+        }
+        50% {
+            top: 34%;
+            left: 44%;
+        }
+        75% {
+            top: 34%;
+            left: 36%;
+        }
+        100% {
+            top: 30%;
+            left: 36%;
+        }
+    }
+    .thekoin__videologo img {
+        width: 150px;
     }
 }

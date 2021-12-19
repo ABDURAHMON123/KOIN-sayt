@@ -379,3 +379,118 @@ a {
     text-align: center;
     color: #40494D;
 }
+
+
+/* the koin
+===================================== */
+
+.thekoin__blocks {
+    width: 100%;
+}
+
+.thekoin__block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thekoin__texts {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.thekoin__texts h1 {
+    font-family: Times New Roman;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #283337;
+    padding-bottom: 50px;
+}
+
+.thekoin__texts p {
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #40494D;
+    padding-bottom: 20px;
+}
+
+.thekoin__texts span {
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #40494D;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.thekoin__texts a {
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.thekoin__video {
+    width: 50%;
+    height: 300px;
+    background-color: #F3F7F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.thekoin__videoplay {
+    position: absolute;
+    cursor: pointer;
+    animation-name: thekoinplay;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes thekoinplay {
+    0% {
+        top: 28%;
+        left: 38%;
+    }
+    25% {
+        top: 28%;
+        left: 42%;
+    }
+    50% {
+        top: 32%;
+        left: 42%;
+    }
+    75% {
+        top: 32%;
+        left: 38%;
+    }
+    100% {
+        top: 28%;
+        left: 38%;
+    }
+}
+
+.thekoin__videologo img {
+    width: 200px;
+}
