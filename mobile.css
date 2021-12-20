@@ -107,6 +107,42 @@
             left: 38%;
         }
     }
+    /* built for
+    ============================ */
+    .builfor__top h1 {
+        font-size: 50px;
+    }
+    /* start block
+    ============================= */
+    .start__texts h1 {
+        font-size: 50px;
+    }
+    .start__texts p {
+        font-size: 27px;
+    }
+    /* footer
+    ============================= */
+    .footer__block h1,
+    h2 {
+        font-size: 14px;
+    }
+    .footer__block p {
+        font-size: 12px;
+    }
+    .footer__block a {
+        font-size: 12px;
+    }
+    .footer__block a span {
+        font-size: 15px;
+    }
+    .footer__right1__text1,
+    .footer__right1__text2,
+    .footer__right1__logo {
+        display: flex;
+        flex-direction: column;
+        margin-right: 70px;
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 955.99px) and (min-width: 756px) {
@@ -238,6 +274,66 @@
             left: 38%;
         }
     }
+    /* built for
+    ============================ */
+    .builfor__top {
+        margin-bottom: 50px;
+    }
+    .builfor__top h1 {
+        font-size: 45px;
+    }
+    .builtfor__logos img {
+        width: 120px;
+    }
+    /* start block
+    ============================= */
+    .start__texts {
+        width: 500px;
+    }
+    .start__texts h1 {
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+    .start__texts p {
+        font-size: 27px;
+        padding-bottom: 50px;
+    }
+    /* footer
+    ============================= */
+    .footer__block h1,
+    h2 {
+        font-size: 13px;
+    }
+    .footer__block p {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    .footer__block a {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    .footer__block a span {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .footer__right1__text1,
+    .footer__right1__text2,
+    .footer__right1__logo {
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+        margin-bottom: 30px;
+    }
+    .footer__email {
+        width: 250px;
+        height: 30px;
+        font-size: 15px;
+        margin-bottom: 185px;
+    }
+    .footer__right__bottom h1,
+    h2 {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 755.99px) and (min-width: 512px) {
@@ -348,6 +444,7 @@
     ================================= */
     .thekoin__block {
         flex-direction: column;
+        margin-bottom: 60px;
     }
     .thekoin__texts {
         width: 90%;
@@ -395,6 +492,80 @@
             top: 30%;
             left: 40%;
         }
+    }
+    /* built for
+    ============================ */
+    .builfor__top {
+        margin-bottom: 45px;
+    }
+    .builfor__top h1 {
+        font-size: 45px;
+    }
+    .builtfor__logos img {
+        width: 100px;
+    }
+    /* start block
+    ============================= */
+    .start__texts {
+        width: 500px;
+    }
+    .start__texts h1 {
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+    .start__texts p {
+        font-size: 23px;
+        padding-bottom: 50px;
+    }
+    /* footer
+    ============================= */
+    .footer__block {
+        height: 420px;
+    }
+    .footer__block h1,
+    h2 {
+        font-size: 10px;
+        padding-bottom: 8px;
+    }
+    .footer__block p {
+        font-size: 8px;
+        padding-bottom: 5px;
+    }
+    .footer__block a {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    .footer__block a span {
+        font-size: 10px;
+        padding: 8px 10px;
+    }
+    .footer__right1__logo img {
+        width: 40px;
+    }
+    .footer__left__button {
+        margin-bottom: 50px;
+    }
+    .footer__left__contact a img {
+        margin-right: 10px;
+        width: 10px;
+    }
+    .footer__right1__text1,
+    .footer__right1__text2,
+    .footer__right1__logo {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .footer__email {
+        width: 200px;
+        height: 20px;
+        font-size: 10px;
+        margin-bottom: 120px;
+    }
+    .footer__right__bottom h1,
+    h2 {
+        font-size: 7px;
     }
 }
 
@@ -655,5 +826,102 @@
     }
     .thekoin__videologo img {
         width: 150px;
+    }
+    /* built for
+    ============================ */
+    .builfor__top {
+        margin-bottom: 40px;
+    }
+    .builfor__top h1 {
+        font-size: 40px;
+    }
+    .builtfor__logos {
+        flex-direction: column;
+    }
+    .builtfor__logos img {
+        width: 130px;
+        margin-bottom: 30px;
+    }
+    /* start block
+    ============================= */
+    .start__texts {
+        width: 500px;
+    }
+    .start__texts h1 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 25px;
+    }
+    .start__texts p {
+        font-size: 17px;
+        padding-bottom: 30px;
+    }
+    .start__texts a {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    /* footer
+    ============================= */
+    .footer__block {
+        height: 1000px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer__block h1,
+    h2 {
+        font-size: 10px;
+        padding-bottom: 8px;
+    }
+    .footer__block p {
+        font-size: 8px;
+        padding-bottom: 5px;
+    }
+    .footer__block a {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    .footer__block a span {
+        font-size: 10px;
+        padding: 8px 10px;
+    }
+    .footer__left {
+        margin-top: 20px;
+    }
+    .footer__left__button {
+        margin-bottom: 50px;
+    }
+    .footer__left__contact a img {
+        margin-right: 10px;
+        width: 10px;
+    }
+    .footer__right1__logo img {
+        width: 40px;
+    }
+    .footer__right1 {
+        flex-direction: column;
+        align-self: start;
+        margin-left: 50px;
+    }
+    .footer__right1__text1,
+    .footer__right1__text2,
+    .footer__right1__logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .footer__right2 {
+        align-items: center;
+    }
+    .footer__email {
+        width: 200px;
+        height: 20px;
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+    .footer__right__bottom h1,
+    h2 {
+        font-size: 5px;
+        margin-left: 10px;
     }
 }
